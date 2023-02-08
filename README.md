@@ -15,6 +15,9 @@
 
 - https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html
 - https://hexdocs.pm/phoenix_live_view/Phoenix.Component.html
+- https://hexdocs.pm/phoenix_live_view/assigns-eex.html
+- https://hexdocs.pm/phoenix_live_view/bindings.html
+- https://hexdocs.pm/phoenix_live_view/form-bindings.html
 - https://pragmaticstudio.com/courses/phoenix-liveview
 - https://pragmaticstudio.com/tutorials/formatting-heex-templates-in-vscode
 
