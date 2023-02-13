@@ -3,8 +3,6 @@ defmodule CheatsWeb.Components do
   import CheatsWeb.CoreComponents
 
   def grid_container_form(assigns) do
-
-
     ~H"""
     <.simple_form :let={f} for={:container} phx-change="container-changed">
       <div class="grid grid-cols-2 grid-flow-row justify-start">

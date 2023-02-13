@@ -4,6 +4,7 @@ defmodule CheatsWeb.CheatsLive do
 
   def mount(_, _, socket) do
     dbg(socket.assigns)
+
     {
       :ok,
       assign(
