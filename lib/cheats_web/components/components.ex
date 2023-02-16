@@ -6,7 +6,7 @@ defmodule CheatsWeb.Components do
     ~H"""
     <.simple_form :let={f} for={:container} phx-change="container-changed">
       <div class="grid grid-cols-2 grid-flow-row justify-start">
-        <%= for {property, value} <- @container_css do %>
+        <%= for {property, value} <- Enum.sort(@container_css) do %>
           <.input field={{f, property}} value={value} label={property} />
         <% end %>
       </div>
